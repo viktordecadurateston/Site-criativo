@@ -1,23 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Magiccube</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Cubos Mágicos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <header class="cabecalho">
-        <img class="logotipo" src="imagens/kisspng-rubiks-cube-puzzle-clip-art-rubik-s-cube-5a7a3997366989.6679278815179595752229.png">
-        <h1> Magiccube</h1>
-        <h1> Como montar o cubo magico</h1>
-        <ul class="cabecalho-lista">
-            <li class="cabecalho-lista-item">Cubos Padrões</li>
-            <li class="cabecalho-lista-item">Cubos Diferentes</li>
-        </ul>
+    <header>
+        <h1>Cubos Mágicos</h1>
     </header>
-
-
+    <nav>
+        <a href="#cubo1">Cubo 3x3</a>
+        <a href="#cubo2">Cubo 4x4</a>
+        <a href="#cubo3">Cubo 5x5</a>
+    </nav>
+    <section id="cubo1">
+        <h2>Cubo 3x3</h2>
+        <p>O cubo 3x3 é o modelo mais comum de cubo mágico.</p>
+        <p>Ele possui 6 faces de cores diferentes e é composto por 26 peças móveis.</p>
+    </section>
+    <section id="cubo2">
+        <h2>Cubo 4x4</h2>
+        <p>O cubo 4x4 é uma variação do cubo 3x3, mas é um pouco mais complexo.</p>
+        <p>Ele possui 6 faces de cores diferentes e é composto por 56 peças móveis.</p>
+    </section>
+    <section id="cubo3">
+        <h2>Cubo 5x5</h2>
+        <p>O cubo 5x5 é ainda mais desafiador que os modelos anteriores.</p>
+        <p>Ele possui 6 faces de cores diferentes e é composto por 98 peças móveis.</p>
+    </section>
+    <footer>
+        <p>Desenvolvido por [mavik] &copy; 2024</p>
+    </footer>
 </body>
 </html>
