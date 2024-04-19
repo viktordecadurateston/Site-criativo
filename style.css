@@ -1,45 +1,6 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+.header-blue {
+    background-color: #007bff; /* Azul primário */
+    color: #fff; /* Texto branco */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento centralizado do texto */
 }
-
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-}
-
-h1 {
-    margin: 0;
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-}
-
-main {
-    padding: 20px;
-}
-
-#informacoes {
-    margin-bottom: 20px;
-}
-
-#links ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-#links ul li {
-    margin-bottom: 10px;
-}
-
-#descricao img {
-    display: block;
-    margin: 20px auto;
-    max-width: 100%;
-}
-
