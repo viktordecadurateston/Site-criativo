@@ -1,27 +1,9 @@
-header{
-    background: linear-gradient(#004aad, #5de0e6);
-    color: rgb(255, 255, 255);
+.cubo {
+    margin-bottom: 20px;
 }
 
-
-.logotipo{
-    width: 120px;
-    position: relative;
-    top: 20px;
-    left: 20px;
+#descricao {
+    display: none;
+    margin-top: 20px;
 }
 
-
-.cabecalho{
-    background-color: #696969;
-    color: rgb(255, 255, 255);
-}
-
-
-.cabecalho-lista{
-    display: flex;
-    position: relative;
-    left: 300px;
-
-
-}
