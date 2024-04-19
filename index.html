@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,18 +7,23 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Cubos Mágicos</h1>
-    <div class="cubo" id="cubo1">
-        <img src="cubo1.jpg" alt="Cubo 1">
-        <button onclick="mostrarDescricao('cubo1')">Descrição</button>
-    </div>
-    <div class="cubo" id="cubo2">
-        <img src="cubo2.jpg" alt="Cubo 2">
-        <button onclick="mostrarDescricao('cubo2')">Descrição</button>
-    </div>
-
-    <div id="descricao"></div>
-
+    <header>
+        <h1>Cubos Mágicos</h1>
+    </header>
+    <main>
+        <section id="cubos">
+            <div class="cubo" id="cubo1">
+                <img src="cubo1.jpg" alt="Cubo 1">
+                <button onclick="mostrarDescricao('cubo1')">Descrição</button>
+            </div>
+            <div class="cubo" id="cubo2">
+                <img src="cubo2.jpg" alt="Cubo 2">
+                <button onclick="mostrarDescricao('cubo2')">Descrição</button>
+            </div>
+            <!-- Adicione mais cubos aqui conforme necessário -->
+        </section>
+        <section id="descricao"></section>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
