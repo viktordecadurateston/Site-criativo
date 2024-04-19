@@ -15,19 +15,31 @@ h1 {
     margin: 0;
 }
 
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
 main {
     padding: 20px;
 }
 
-.cubo {
+#informacoes {
     margin-bottom: 20px;
 }
 
-.cubo img {
+#links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#links ul li {
+    margin-bottom: 10px;
+}
+
+#descricao img {
+    display: block;
+    margin: 20px auto;
     max-width: 100%;
 }
 
-#descricao {
-    display: none;
-    margin-top: 20px;
-}
