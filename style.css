@@ -4,3 +4,7 @@
     padding: 20px; /* Espaçamento interno */
     text-align: center; /* Alinhamento centralizado do texto */
 }
+
+.plataforma{
+    width: 90px;
+}
